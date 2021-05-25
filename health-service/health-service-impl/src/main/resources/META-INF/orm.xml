@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings>
+    <persistence-unit-metadata>
+        <persistence-unit-defaults>
+            <entity-listeners>
+                <entity-listener class="codeworld.health.service.listener.JpaChangeEntityListener"/>
+            </entity-listeners>
+        </persistence-unit-defaults>
+    </persistence-unit-metadata>
+</entity-mappings>
